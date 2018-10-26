@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Bunch Blossoms Personal Use';
+    src: url('BunchBlossomsPersonalUse.woff2') format('woff2'),
+        url('BunchBlossomsPersonalUse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
