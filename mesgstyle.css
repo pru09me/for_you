@@ -1,12 +1,17 @@
 *{
 	box-sizing: border-box;
 }
-
 body{
 	width: 100%;
 	height:auto;
-	background-image: url(images/burg1.png);
-	background-position: center;	
+	
+	-webkit-background-image: repeating-linear-gradient(90deg, #f7e7ce 10%, transparent 10%, transparent 20%, #808080 20%, #808080 30%, #67001a 30%, #67001a 40%, #000000 40%, #000000 50%, #f7e7ce 50%, #f7e7ce 60%, transparent 60%, transparent 70%, #808080 70%, #808080 80%, #67001a 80%, #67001a 90%, #000000 90%, #000000 100%), url(images/backm.jpg);
+	-webkit-background-size: 650.00px 650.00px;
+	-moz-background-image: repeating-linear-gradient(90deg, #f7e7ce 10%, transparent 10%, transparent 20%, #808080 20%, #808080 30%, #67001a 30%, #67001a 40%, #000000 40%, #000000 50%, #f7e7ce 50%, #f7e7ce 60%, transparent 60%, transparent 70%, #808080 70%, #808080 80%, #67001a 80%, #67001a 90%, #000000 90%, #000000 100%), url(images/backm.jpg);
+	-moz-background-size: 650.00px 650.00px;
+	
+	background-image: repeating-linear-gradient(90deg, #f7e7ce 10%, transparent 10%, transparent 20%, #808080 20%, #808080 30%, #67001a 30%, #67001a 40%, #000000 40%, #000000 50%, #f7e7ce 50%, #f7e7ce 60%, transparent 60%, transparent 70%, #808080 70%, #808080 80%, #67001a 80%, #67001a 90%, #000000 90%, #000000 100%), url(images/backm.jpg);
+	background-size: 650.00px 650.00px;
 }
 
 
